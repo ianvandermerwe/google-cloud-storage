@@ -6,20 +6,26 @@
 [![Scrutinizer](https://img.shields.io/scrutinizer/g/ianvdmerwe/google-cloud-storage.svg)]()
 [![Github All Releases](https://img.shields.io/github/downloads/ianvdmerwe/google-cloud-storage/total.svg)]()
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+This is a Package to upload files to the Google Cloud CDN.
 
 ## Install
 
 ``` bash
 $ composer require ianvdmerwe/google-cloud-storage
-
-$ php artisan vendor:publish
 ```
 
 ## Add Service Provider
 
 IoDigital\GoogleCloudStorage\GoogleCloudStorageServiceProvider::class
+
+## Run Vendor publish
+
+``` bash
+$ php artisan vendor:publish
+
+```
+
+Configure the config file created
 
 ## Usage
 
