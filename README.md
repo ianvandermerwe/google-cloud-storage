@@ -34,7 +34,7 @@ $googleCloudHandler = new GoogleCloudStorageHandler();
 $googleCloudHandler->uploadFile();
 
 OR
-
+use IoDigital\GoogleCloudStorage\Storage\GoogleCloudStorageHandler;
 Dependency Inject: GoogleCloudStorageHandler
 ```
 
